@@ -1,0 +1,16 @@
+.noTasks {
+  border-top: 1px solid var(--gray-400);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+}
+
+.noTasks img {
+  margin-bottom: 1rem;
+}
+
+.noTasks strong, .noTasks p {
+  line-height: 1.4;
+}

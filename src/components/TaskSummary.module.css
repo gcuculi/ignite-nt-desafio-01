@@ -1,0 +1,27 @@
+.summaryContent {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem 0 1.5rem 0;
+}
+
+.summaryItem {
+  font-size: 0.875rem;
+}
+
+.summaryItem strong.blue {
+  color: var(--blue);
+}
+
+.summaryItem strong.purple {
+  color: var(--purple);
+}
+
+.summaryItem span {
+  margin-left: 0.5rem;
+  padding: 0.125rem 0.5rem;
+  background: var(--gray-400);
+  border-radius: 2rem;
+  color: var(--gray-200);
+  font-size: 0.75rem;
+  font-weight: bold;
+}
